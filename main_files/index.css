@@ -1,0 +1,328 @@
+/* 
+__author__ = "Deepak Bhatt"
+__version__ = "0.1.0"
+__license__ = "MIT" 
+*/
+
+
+/* 
+Basic colors useD
+Light: #F2D7D5,#D2B4DE,#85C1E9,#7ed56f,#F7DC6F,#F8C471,#EAECEE,#FDFEFE 
+Medium: #CD6155,#8E44AD,#3498DB,#55c57a,#F4D03F,#F5B041,#D0D3D4,#E5E8E8
+Dark: #C0392B,#7D3C98,#2874A6,#28b485,#F1C40F,#F39C12,#616A6B,#17202A 
+*/
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+
+/* Use rem in place of px because rem is relation to root size it helps in making web more responsive */
+
+html,
+body {
+    /* Implies 1rem=10px root size but px is not a good used practice*/
+    /* Default font size is 16px **10/16=62.5** */
+    font-size: 62.5%;
+    @media (min-width: 400px) {
+        /* width<1200? */
+        font-size: 55%;
+        /* 1em=9px -> 9/16*100 -> 56.25% */
+    }
+    @media (min-width: 550px) {
+        /* width<1200? */
+        font-size: 56.25%;
+        /* 1em=9px -> 9/16*100 -> 56.25% */
+    }
+    @media (min-width: 750px) {
+        font-size: 50%;
+    }
+    @media (min-width: 1000px) {
+        font-size: 75%;
+    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',
+    'Arial',
+    sans-serif;
+    color: #222;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+/* TAG */
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover {
+    color: #0fa0ce;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+/* Lists */
+
+ul {
+    list-style: circle inside;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ol,
+ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+
+/* HEADINGS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    letter-spacing: -0.1rem;
+}
+
+h2 {
+    font-size: 2.7em;
+    line-height: 1.25;
+    letter-spacing: -0.1rem;
+}
+
+h3 {
+    font-size: 2.4em;
+    line-height: 1.3;
+    letter-spacing: -0.1rem;
+}
+
+h4 {
+    font-size: 2em;
+    line-height: 1.35;
+    letter-spacing: -0.08rem;
+}
+
+h5 {
+    font-size: 1.4em;
+    line-height: 1.5;
+    letter-spacing: -0.05rem;
+}
+
+h6 {
+    font-size: 1em;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+
+
+/* GRID 
+//GRID LAYOUT ** To use please type css3 fileName.css for css template **
+<div class="row">
+    <div class="col-1-of-2">
+        col-1-of-2
+    </div>
+    <div class="col-1-of-2">
+        col-1-of-2
+    </div>
+</div>
+<div class="row">
+    <div class="col-1-of-3">
+        col-1-of-3
+    </div>
+    <div class="col-1-of-3">
+        col-1-of-3
+    </div>
+    <div class="col-1-of-3">
+        col-1-of-3
+    </div>
+</div>
+<div class="row">
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+</div>
+<div class="row">
+    <div class="col-1-of-3">
+        col-1-of-3
+    </div>
+    <div class="col-2-of-3">
+        col-2-of-3
+    </div>
+</div>
+<div class="row">
+    <div class="col-2-of-3">
+        col-2-of-3
+    </div>
+    <div class="col-1-of-3">
+        col-1-of-3
+    </div>
+</div>
+<div class="row">
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+    <div class="col-2-of-4">
+        col-2-of-4
+    </div>
+</div>
+<div class="row">
+    <div class="col-2-of-4">
+        col-2-of-4
+    </div>
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+</div>
+<div class="row">
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+    <div class="col-3-of-4">
+        col-3-of-4
+    </div>
+</div>
+<div class="row">
+    <div class="col-3-of-4">
+        col-3-of-4
+    </div>
+    <div class="col-1-of-4">
+        col-1-of-4
+    </div>
+</div>
+*/
+
+.full {
+    width: 100%;
+}
+
+.four-fifth {
+    width: 80%;
+}
+
+.two-third {
+    width: 66.66%;
+}
+
+.three-fifth {
+    width: 60%;
+}
+
+.half {
+    width: 50%;
+}
+
+.two-fifth {
+    width: 40%;
+}
+
+.third {
+    width: 33.33%;
+}
+
+.quarter {
+    width: 25%;
+}
+
+
+/* UTILITY */
+
+.u_center-text {
+    text-align: center;
+}
+
+.u_right-text {
+    text-align: right;
+}
+
+.u_left-text {
+    text-align: left;
+}
+
+.u_center {
+    margin: 0 auto;
+}
+
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.u-pull-right {
+    float: right;
+}
+
+.u-pull-left {
+    float: left;
+}
+
+
+/* If you wanted to change the styles for buttons on small devices, paste the mobile query code up in the buttons section and style it there.*/
+
+@media (min-width: 400px) {}
+
+@media (min-width: 550px) {}
+
+@media (min-width: 750px) {}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1200px) {}
