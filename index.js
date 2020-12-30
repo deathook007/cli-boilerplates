@@ -10,6 +10,7 @@ exports.py3Public = py3Private;
 exports.flaskPublic = flaskPrivate;
 exports.html5Public = html5Private;
 exports.css3Public = css3Private;
+exports.appjsPublic = appjsPrivate;
 
 function cPrivate() {
     // Reading c boilerplate
@@ -73,4 +74,12 @@ function css3Private() {
     const filename = process.argv[2];
     // Writing css3 to file
     fs.writeFileSync(`${process.cwd()}/${filename}`, css3);
+}
+
+function appjsPrivate() {
+    // Reading nodejs boilerplate
+    const appjs = fs.readFileSync(`${__dirname}/main_files/app.js`);
+    const filename = process.argv[2];
+    // Writing nodejs to file
+    fs.writeFileSync(`${process.cwd()}/${filename}`, appjs);
 }

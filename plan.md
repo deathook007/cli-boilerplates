@@ -6,7 +6,7 @@
 4. Set environment and execute function
    - env file
    - package.json
-5. Set link and run x test.x (x = {c, m, cc, java, py3, html, css}) from anywhere!
+5. Set link and run x test.x (x = {c, m, cc, java, py3, flask, html, css, appjs}) from anywhere!
 
 # Dependencies
 

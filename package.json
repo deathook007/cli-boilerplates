@@ -11,7 +11,8 @@
         "py3": "envpy3",
         "flask": "envflask",
         "html5": "envhtml5",
-        "css3": "envcss3"
+        "css3": "envcss3",
+        "appjs": "envappjs"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
