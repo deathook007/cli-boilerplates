@@ -20,20 +20,36 @@ npm install cli-boilerplates -g -f
 ```
 html5 filename.html
 
+```
+```
 css3 filename.css
 
+```
+```
 nodejs filename.js
 
+```
+```
 python3 filename.py
 
+```
+```
 flask filename.py
 
+```
+```
 c filename.c
 
+```
+```
 m filename.m
 
+```
+```
 cc filename.cc
 
+```
+```
 java15 filename.java
 
 ```
