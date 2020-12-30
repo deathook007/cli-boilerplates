@@ -9,6 +9,7 @@
         "cc": "envcc",
         "java15": "envjava",
         "py3": "envpy3",
+        "flask": "envflask",
         "html5": "envhtml5",
         "css3": "envcss3"
     },

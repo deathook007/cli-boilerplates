@@ -7,6 +7,7 @@ exports.mPublic = mPrivate;
 exports.ccPublic = ccPrivate;
 exports.javaPublic = javaPrivate;
 exports.py3Public = py3Private;
+exports.flaskPublic = flaskPrivate;
 exports.html5Public = html5Private;
 exports.css3Public = css3Private;
 
@@ -48,6 +49,14 @@ function py3Private() {
     const filename = process.argv[2];
     // Writing python to file
     fs.writeFileSync(`${process.cwd()}/${filename}`, py3);
+}
+
+function flaskPrivate() {
+    // Reading python flask boilerplate
+    const flask = fs.readFileSync(`${__dirname}/main_files/flask.py`);
+    const filename = process.argv[2];
+    // Writing python flask to file
+    fs.writeFileSync(`${process.cwd()}/${filename}`, flask);
 }
 
 function html5Private() {
