@@ -1,26 +1,40 @@
 # CLI Boilerplates 🚀 
 
+A  Command Line Tool to generate boilerplates with creation of files from anywhere in your system !
+
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Test%20Results/Banner.jpeg)
+
+# Description
+
+A CLI Tool made with javascript to reduce the efforts of making files and entring basic code to your sourcefile.
 
 - 🤯 Boilerplates on creation of file globally in system! 
 
-- 📈 A tool to help students quick start (Starter Pack) html5, css3, nodejs, python3, flask , c, objective-c, c++ and java. 
+- 📈 Boilerplates available - html5, css3, nodejs, python3, flask , c, objective-c, c++ and java. 
 <br>
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/install.png)
-## Install
-```
-npm install cli-boilerplates -g
+# Install
 
-```
+The installation is simple. You have to just type the following command in your command prompt/ power shell/ hyper /mac-terminal /linix-terminal.
 ```
 npm install cli-boilerplates -g -f
 
 ```
+OR
+
+Just go to npmjs.com and search for cli-boilerplates (Making web dev commands easy).
+
+# Version
+The current version available in npmjs.com is version 1.2.0 (cli-boilerplates)
+
+Updates are comming soon ...
 <br>
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/usage.png)
-## Usage
+# Usage
+
+The tool can be used in following ways after installation. Available commands and there features are given below - 
 ```
 html5 filename.html
 ```
@@ -63,7 +77,8 @@ java15 filename.java
 <br>
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/license.png)
-## License
-ISC
+# License
+
+ISC and MIT
 
 
