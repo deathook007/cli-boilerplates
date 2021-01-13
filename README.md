@@ -1,11 +1,9 @@
 # CLI Boilerplates 🚀 
-
 A  Command Line Tool to generate boilerplates with creation of files from anywhere in your system !
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Test%20Results/Banner.jpeg)
 
 # Description
-
 A CLI Tool made with javascript to reduce the efforts of making files and entring basic code to your sourcefile.
 
 - 🤯 Boilerplates on creation of file globally in system! 
@@ -15,7 +13,6 @@ A CLI Tool made with javascript to reduce the efforts of making files and entrin
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/install.png)
 # Install
-
 The installation is simple. You have to just type the following command in your command prompt/ power shell/ hyper /mac-terminal /linix-terminal.
 ```
 npm install cli-boilerplates -g -f
@@ -33,7 +30,6 @@ Updates are comming soon ...
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/usage.png)
 # Usage
-
 The tool can be used in following ways after installation. Available commands and there features are given below - 
 ```
 html5 filename.html
@@ -78,7 +74,9 @@ java15 filename.java
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/license.png)
 # License
-
 ISC and MIT
+
+# Keywords
+cli boilerplates cli-boilerplates 
 
 
