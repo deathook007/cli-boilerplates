@@ -77,6 +77,5 @@ java15 filename.java
 ISC and MIT
 
 # Keywords
-cli boilerplates cli-boilerplates 
-
+cli Cli CLI boilerplates Boilerplates BOILERPLATES cli-boilerplates Cli-Boilerplates CLI-BOILERPLATES
 
