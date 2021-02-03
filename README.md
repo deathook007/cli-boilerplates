@@ -57,11 +57,6 @@ flask filename.py
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/flask%20.gif)
 
 ```
-c filename.c
-```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/c%20.gif)
-
-```
 cc filename.cc
 ```
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/cc%20.gif)
