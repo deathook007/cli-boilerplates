@@ -4,7 +4,7 @@
 A  Command Line Tool to generate boilerplates with creation of files from anywhere in your system !
 
 # Description
-A CLI Tool made with javascript to reduce the efforts of making files and entring basic code to your sourcefile.
+##### A CLI Tool made with javascript to reduce the efforts of making files and entring basic code to your sourcefile.
 
 - 🤯 Boilerplates on creation of file globally in system! 
 
@@ -13,17 +13,17 @@ A CLI Tool made with javascript to reduce the efforts of making files and entrin
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/install.png)
 # Install
-The installation is simple. You have to just type the following command in your command prompt/ power shell/ hyper /mac-terminal /linix-terminal.
+The installation is simple. You have to just type the following command in your <b>command prompt/ power shell/ hyper /mac-terminal /linix-terminal</b>.
 ```
 npm install cli-boilerplates -g -f
 
 ```
-OR
+#### OR
 
-Just go to npmjs.com and search for cli-boilerplates (Making web dev commands easy).
+Just go to <b>npmjs.com</b> and search for <b>cli-boilerplates</b> (Making web dev commands easy).
 
 # Version
-The current version available in npmjs.com is version 1.2.0 (cli-boilerplates)
+#### The current version available in npmjs.com is version 1.2.0 (cli-boilerplates)
 
 Updates are comming soon ...
 <br>
@@ -45,11 +45,6 @@ css3 filename.css
 appjs filename.js
 ```
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/appjs%20.gif)
-
-```
-py3 filename.py
-```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/py3%20.gif)
 
 ```
 flask filename.py
