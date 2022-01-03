@@ -44,25 +44,21 @@ css3 filename.css
 ```
 appjs filename.js
 ```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/appjs%20.gif)
 
 ```
 flask filename.py
 ```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/flask%20.gif)
 
 ```
 cc filename.cc
 ```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/cc%20.gif)
 
 ```
 java15 filename.java
 ```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/java15%20.gif)
+
 <br>
 
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/license.png)
 # License
 ISC and MIT
 
