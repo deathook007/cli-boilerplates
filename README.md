@@ -34,12 +34,10 @@ The tool can be used in following ways after installation. Available commands an
 ```
 html5 filename.html
 ```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/html5%20.gif)
 
 ```
 css3 filename.css
 ```
-![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/gif/css3%20.gif)
 
 ```
 appjs filename.js
